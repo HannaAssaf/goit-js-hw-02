@@ -8,8 +8,7 @@ function makeTransaction(quantity, pricePerDroid, customerCredits) {
         return getMessage;
     }
      else {
-        let getMessage = `You ordered ${quantity} droids worth ${totalPrice} credits!`;
-        return getMessage;
+        return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
      }
 }
 
